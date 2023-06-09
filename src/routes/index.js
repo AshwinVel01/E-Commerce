@@ -5,7 +5,7 @@ import Home from '../container/Home'
 
 export default function Router() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/E-Commerce">
         <Routes>
 
             <Route path='*' element={<Home/>} /> 
